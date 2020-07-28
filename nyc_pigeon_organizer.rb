@@ -1,3 +1,3 @@
 def nyc_pigeon_organizer(data)
-  final = data.each_for_objects
+  final = data.each_with_object({}) do {key, value}
 end
